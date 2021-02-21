@@ -1,9 +1,3 @@
-/*
-Raymon Redd - 1100490
-Tarrant County College - COSC 1437- Semester 2021
-Assignment 1- Week 06
-Extra items: This one was much easier than the previous weeks assignment! It was also pretty fun to learn! 
-*/
 #include <iostream>
 #include <string>
 
