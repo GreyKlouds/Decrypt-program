@@ -15,7 +15,7 @@ int main()
 		string input;
 		getline(cin, input);
 		passed_word = word_encryptor(input);
-		returned_word = word_decryptor(input);
+		returned_word = word_decryptor(passed_word);
 		cout << "Your encrypted word is: " << passed_word << "\n";
 		cout << "Your decrypted word is: " << returned_word << "\n";
 		cout << "\tDo you want to exit the program? (y or n):";
