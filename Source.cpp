@@ -37,7 +37,7 @@ string word_decryptor(string& encrypted_word) {
 	string encryptedWord = encrypted_word;
 	for ( int x = 0; x < encryptedWord.length(); x++)
 	{
-		encryptedWord[x] = encrypted_word[x];
+		encryptedWord[x] = encrypted_word[x] - 1;
 	}
 	return encryptedWord;
 }
